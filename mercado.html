@@ -42,6 +42,22 @@
         .activo {
             text-decoration: underline;
         }
+
+        .imagen-contenedor {
+            position: relative;
+            display: block;
+        }
+
+        .link-formulario {
+            position: absolute;
+            top: 8.2%;
+            left: 3%;
+            width: 25%;
+            height: 1.5%;
+            cursor: pointer;
+            /* Descomenta la siguiente línea para depurar la posición: */
+            /* background: rgba(255, 0, 0, 0.3); */
+        }
     </style>
 </head>
 
@@ -53,7 +69,14 @@
     <a href="competencia.html">Análisis de competencia</a>
 </nav>
 
-<img src="mercado.png" alt="Análisis de mercado">
+<div class="imagen-contenedor">
+    <img src="mercado.png" alt="Análisis de mercado">
+    <a class="link-formulario"
+       href="https://docs.google.com/forms/d/e/1FAIpQLSeY-uzz8H0R9D9I7jBKqJRVGWVnqgtPuVoMg9jqh82IqbVK5w/viewform"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Abrir Formulario Vision"></a>
+</div>
 
 </body>
 </html>
